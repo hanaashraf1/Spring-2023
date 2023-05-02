@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>survey 2023</titles>
+ </head>
+<body>
+    <h1>Sleep Schedule Survey</h1>
+    <h2>For Web Production II - Spring 2023</h2>
+    <form action="connect.php" method="post">
+    <label for="name" >Name:</label><br>    
+    <input type="text" id="name" name="name">
+
+<label for="hours">How many hours of sleep do you get?:</label><br>
+<select type="number" id="hours" name="hours">
+    <option value="2023" selected>0-2</option>
+    <option value="2023.5">0-2</option>
+    <option value="2024">3-5</option>
+    <option value="2024.5">6-8</options>
+    <option value="2025">9+</options>
+</select>
+
+<label for="major">Major:</label><br>
+<input type="text" id="major" name="major">
+
+<label for="minor">Minor:</label><br>
+<input type="text" id="minor" name="minor">
+
+<br><br>
+    <label for="affect">What do you think affects your sleep schedule?</label><br>
+    <textarea type="text" id="affect" name="affect"></textarea>
+<br><br>
+    <label for="phone">Do go on your phone before sleeping?</labels><br>
+    <textarea type="text" id="phone" name="phone"></textareas>
+<br><br>
+    <label for="quality">What is the quality of your sleep?</labels><br>
+    <textarea type="text" id="quality" name="quality"></textareas>
+<br><br>
+    <label for="comments">Other comments on how you sleep:</labels><br>
+    <textarea type="text" id="comments" name="comments"></textarea>
+<br><br>
+    <button>submit</button>
+</form>
+</body>
+</html>
